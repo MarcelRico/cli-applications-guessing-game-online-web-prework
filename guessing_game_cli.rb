@@ -3,7 +3,6 @@
 
 def run_guessing_game
   computers_number = generate_random_number
-  prompt_user
   users_input = get_user_input
   did_you_win(users_input,computers_number)
 end
