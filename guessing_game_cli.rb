@@ -22,7 +22,7 @@ end
 def did_you_win(users_input,computers_number)
   if(users_input.to_i == nil)
     puts "Sorry! The computer guessed #{computers_number}."
-  elsif(users_input == computers_number)
+  elsif(users_input.to_i == computers_number)
     puts "You guessed the correct number!"
   elsif(users_input == "exit")
     puts "Goodbye!"
