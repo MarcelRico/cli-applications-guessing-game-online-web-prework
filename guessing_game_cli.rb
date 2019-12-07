@@ -26,9 +26,8 @@ def did_you_win(users_input,computers_number)
     puts "You guessed the correct number!"
   elsif(users_input == "exit")
     puts "Goodbye!"
-  else{
+  else
     puts "Sorry! The computer guessed #{computers_number}."
-  }
 end
 
 #"Sorry! The computer guessed #{computers_number}."
