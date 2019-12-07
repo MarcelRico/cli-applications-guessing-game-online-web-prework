@@ -28,6 +28,7 @@ def did_you_win(users_input,computers_number)
     puts "Goodbye!"
   else
     puts "Sorry! The computer guessed #{computers_number}."
+  end
 end
 
 #"Sorry! The computer guessed #{computers_number}."
